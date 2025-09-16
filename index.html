@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Напишите диктору</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #222b73 0%, #1f6ea9 50%, #33b1c3 100%);
+    }
+
+    a.button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem 2.5rem;
+      border-radius: 999px;
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #0f172a;
+      text-decoration: none;
+      font-size: 1.25rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+      box-shadow: 0 20px 40px rgba(15, 23, 42, 0.25);
+    }
+
+    a.button:hover {
+      transform: translateY(-4px);
+      background-color: #ffffff;
+      box-shadow: 0 28px 45px rgba(15, 23, 42, 0.35);
+    }
+
+    a.button:focus {
+      outline: 3px solid rgba(255, 255, 255, 0.7);
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+<body>
+  <a class="button" href="https://t.me/@fly2ai" target="_blank" rel="noopener noreferrer">Напиши диктору</a>
+</body>
+</html>
